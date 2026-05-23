@@ -19,7 +19,7 @@ db = client["dragonballDB"]
 coleccion = db["personajes"]
 
 @dragonball_bp.route(
-    "/dragonball/<nombre>",
+    "/<nombre>",
     methods=["GET"]
 )
 
