@@ -14,7 +14,7 @@ client = MongoClient(
     os.getenv("MONGO_URI")
 )
 
-db = client["dragonballDB"]
+db = client["dragonballB"]
 
 coleccion = db["personajes"]
 
