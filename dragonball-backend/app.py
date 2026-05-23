@@ -21,7 +21,10 @@ db = client["dragonball"]
 
 from routes.dragonball import dragonball_bp
 
-app.register_blueprint(dragonball_bp)
+app.register_blueprint(
+    dragonball_bp,
+    url_prefix="/dragonball"
+)
 
 if __name__ == "__main__":
 
